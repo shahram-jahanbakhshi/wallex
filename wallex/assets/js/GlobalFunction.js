@@ -1,6 +1,6 @@
 ﻿const headers = new Headers();
 headers.append('Content-Type', 'application/json');
-headers.append('X-API-Key', '9080|gvP9tDYFqqpb9NMx0rS69CZXltd445EKuD2l9w5C');
+
 
 let apiData = {
     url: 'https://api.wallex.ir/',
