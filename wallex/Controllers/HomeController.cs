@@ -47,7 +47,7 @@ namespace wallex.Controllers
 
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                    client.DefaultRequestHeaders.Add("X-API-Key", "9080|gvP9tDYFqqpb9NMx0rS69CZXltd445EKuD2l9w5C");
+                    
 
 
                     string GetRealPriceURL = "https://api.wallex.ir/v1/account/otc/price?symbol=" + symbol + "&side=" + side + "";
