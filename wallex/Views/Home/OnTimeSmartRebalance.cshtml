@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "OnTimeSmartRebalance";
+    Layout = "~/Views/shared/layout.cshtml";
+}
+<div class="well_sh">
+    <h2>OnTimeSmartRebalance</h2>
+
+</div>
+
+<div class="well_sh">
+    <p id="time1"></p>
+    <p id="realPriceShow"></p>
+    <button id="getRealPrice">Get Real Price</button>
+</div>
+
+<div class="well_sh tableFixHead">
+    <table>
+        <thead>
+            <tr><th>TH 1</th><th>TH 2</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>A1</td><td>A2</td></tr>
+            <tr><td>B1</td><td>B2</td></tr>
+            <tr><td>C1</td><td>C2</td></tr>
+            <tr><td>D1</td><td>D2</td></tr>
+            <tr><td>E1</td><td>E2</td></tr>
+        </tbody>
+    </table>
+
+</div>
+
+@section script{
+    <script src="~/assets/js/GlobalFunction.js"></script>
+
+    <script src="~/assets/js/OnTimeSmartRebalance.js"></script>
+}
+

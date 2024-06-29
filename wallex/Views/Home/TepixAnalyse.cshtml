@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "TepixAnalyse";
+    Layout = "~/Views/shared/layout.cshtml";
+}
+
+<div class="well_sh">
+    <h2>TepixAnalyse</h2>
+
+</div>
+
+<div class="well_sh">
+    <div class="row mb-3">
+        <p>From: <input id="from" type="text" class="datepicker" value="06/01/2023"></p>
+
+        <p>To: <input id="to" type="text" class="datepicker" value="06/01/2024"></p>
+    </div>
+</div>
+
+<div class="well_sh" id="plot_region">
+    <canvas id="tepixChart3Coins_1" style="width:100%;max-width:1200px"></canvas><br /><br />
+
+    <canvas id="tepixChart3Coins_2" style="width:100%;max-width:1200px"></canvas><br /><br />
+</div>
+
+@section script{
+    <script src="~/assets/js/GlobalFunction.js"></script>
+
+    <script src="~/assets/js/TepixAnalayse.js"></script>
+   
+}

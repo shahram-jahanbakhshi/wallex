@@ -1,0 +1,78 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Index</title>
+</head>
+<body>
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <p> ساخت ربات Smart Rebalance</p>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+        <button id="marketslist" type="button" class="btn btn-primary">لیست بازارها</button>
+    </div><br />
+
+    <div class="container-fluid pt-5">
+        <button id="orderbook" type="button" class="btn btn-primary">لیست سفارش‌های باز</button>
+    </div><br />
+
+    <div class="container-fluid pt-5">
+        <button id="profile" type="button" class="btn btn-primary">حساب کاربری</button>
+    </div><br />
+
+    <div class="container-fluid pt-5">
+        <button id="sendorder" type="button" class="btn btn-primary">ارسال سفارش</button>
+    </div><br />
+
+    <div class="container-fluid pt-5">
+        <button id="history" type="button" class="btn btn-primary">تاریخچه</button>
+    </div><br />
+
+    <div class="container-fluid ">
+        <button id="timestamp" type="button" class="btn btn-primary">تبدیل زمان</button>
+        <br />
+        <p id="demo"></p>
+    </div><br />
+
+
+    @*<div class="container-fluid">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+        </div>*@
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Admin JS-->
+
+    <script src="~/assets/js/appIndex.js"></script>
+    <script src="~/assets/js/GlobalFunction.js"></script>
+</body>
+</html>
